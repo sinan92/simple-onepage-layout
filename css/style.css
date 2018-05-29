@@ -1,0 +1,181 @@
+@font-face {
+    font-family: Lato;
+    src: url('../fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+    font-family: Lato;
+    src: url('../fonts/Lato-Black.ttf');
+    font-weight: Bold;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", "Times New Roman", Serif;
+}
+
+header{
+    background: url("../images/headero.png");
+}
+
+#header-overlay, .wrapper{
+    padding: 20px 50px;
+}
+
+#header-overlay{
+    background-color: rgba(176,174,59, 0.5);
+}
+
+header, main, footer, #header-nav{
+    float: left;
+    width: 100%;
+}
+
+#header-nav #logo{
+    float: left;
+}
+
+#menu{
+    float: right;
+    color: #fff;
+}
+
+#menu ul{
+    list-style: none;
+    padding: 0;
+}
+
+#menu ul li{
+    display: inline-block;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 20px 25px;
+}
+
+#menu ul li a:hover, #menu ul li a:active, .active{
+    background-color: rgba(232, 230, 73, 0.4);
+}
+
+#header-text{
+    margin: 0 auto;
+    width: 40%;
+    text-align: center;
+    color: #fff;
+}
+
+#header-text h2{
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#header-text p{
+    margin-bottom: 50px;
+}
+
+#header-text #button-wrapper a{
+    background-color: rgba(232, 230, 73, 0.4);
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+#header-text #button-wrapper a:hover, #header-text #button-wrapper a:active{
+    background-color: rgba(232, 230, 73, 0.5);
+}
+
+#navigatie-pijl{
+    margin: 80px auto 0 auto;
+    width: 40px;
+    cursor: pointer;
+}
+
+main{
+}
+
+main .block{
+    float: left;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+main .block h3, main h2{
+    color: #444;
+}
+
+main .block p{
+    padding-right: 200px;
+    margin-bottom: 30px;
+}
+
+.knop{
+    background: #00408d;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+#php-section{
+    float: left;
+    background: #001f3f;
+    width: 100%;
+    color: #fff;
+}
+
+#php-section h2, #php-section h3{
+    color: #80BFFF;
+}
+
+#contact{
+    margin: 10px 0;
+    text-align: center;
+}
+
+#php-section a{
+    display: inline-block;
+}
+
+.field{
+    width: 410px;
+    margin: 30px auto;
+    text-align: left;
+}
+
+.field label{
+    display: inline-block;
+    width: 100px;
+}
+
+.field input{
+    width: 300px;
+}
+
+#submit{
+    border: 0;
+}
+
+footer{
+    background: #F7B733;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+footer .block{
+    float: left;
+    width: 33%;
+}
+
+footer .block p{
+    padding-right: 200px;
+}
